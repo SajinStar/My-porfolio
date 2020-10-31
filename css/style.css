@@ -1,3 +1,15 @@
+/*===================
+
+                                              Nav Section
+
+                                            ================ */
+
+/*===================
+
+                                              Nav Section End
+
+                                            ================ */
+
 /*==================
                                                         
                                                         LANDING SECTION 
@@ -68,6 +80,29 @@
   top: 78%;
   left: 38%;
 }
+
+aside {
+  color: aliceblue;
+  position: absolute;
+  right: -140px;
+  top: 35%;
+  display: flex;
+  transform: rotate(90deg);
+}
+
+aside a {
+  color: aliceblue;
+  padding: 0 30px;
+}
+aside a:hover {
+  text-decoration: none;
+}
+
+.circleOne:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+
 /*==================
                                                         
                                                         LANDING SECTION MEDIA QUERIES 
